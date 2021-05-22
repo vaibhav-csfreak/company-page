@@ -1,0 +1,67 @@
+.nav-link{
+  color:black;
+}
+.div2{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height:500px;
+  position:relative;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.centre-div{
+  margin:auto;
+  background-color: white;
+  width:40%;
+  height:150px;
+  display: inline-block;
+  width:100%;
+  border-radius: 5px;
+}
+.share{
+  margin-left: 40%;
+}
+.feeling-share-div{
+  margin:auto;
+}
+.text-div{
+  padding : 5px;
+  background-color: #ffe3fe;
+  margin: 25px auto;
+  border-radius: 2px;
+  width:79%;
+}
+.feeling-text{
+  font-weight:bold;
+  margin: auto;
+  text-align: center;
+}
+.upper-bottom{
+  /* background-color: yellow; */
+  height:30px;
+  position:absolute;
+  left: 45%;
+  top:95%;
+}
+.bottom-text{
+  font-weight: bold;
+}
+.bottom-link{
+  color : white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.bottom-link:hover{
+  color:#153e90;
+  text-decoration: none;
+}
